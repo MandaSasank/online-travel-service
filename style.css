@@ -1,0 +1,104 @@
+/* -- Global -- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef6ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Headings -- */
+h1 {
+    text-align: center;
+    color: #0b3c5d;
+    background-color: #d9edf7;
+    padding: 15px;
+    border-bottom: 3px solid #31708f;
+}
+
+h2 {
+    color: #31708f;
+    margin-left: 20px;
+}
+
+/* -- Navigation -- */
+nav {
+    background-color: #0b3c5d;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* -- Paragraph -- */
+p {
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* -- Images -- */
+img {
+    border-radius: 10px;
+    border: 3px solid #31708f;
+    margin: 10px;
+}
+
+/* Make text and images come side by side */
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* -- Lists -- */
+ul {
+    margin: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin: 8px 0;
+    color: #0b3c5d;
+}
+
+/* -- Tables -- */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #0b3c5d;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* -- Footer (if any text at bottom) -- */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0b3c5d;
+    color: white;
+}
